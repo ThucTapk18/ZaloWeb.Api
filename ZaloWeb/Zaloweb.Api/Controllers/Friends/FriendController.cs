@@ -23,7 +23,7 @@ namespace Zaloweb.Api.Controllers
 
         [HttpGet]
         [Route("info")]
-        public async Task<GetFriendResponse> GetUserAsync(long? leftId = null, long? rightId = null)
+        public async Task<GetFriendResponse> GetFriendAsync(long? leftId = null, long? rightId = null)
         {
             try
             {
