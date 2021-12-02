@@ -14,12 +14,10 @@
 
         protected override void Seed(Zaloweb.Data.DBContext context)
         {
-            context.Users.AddOrUpdate(new Tables.User
-            {
-                Id = 1,
-                Name = "Panda Cuteeeee",
-                UserName = "Panda"
-            });
+            //  This method will be called after migrating to the latest version.
+
+            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
+            //  to avoid creating duplicate seed data.
         }
     }
 }

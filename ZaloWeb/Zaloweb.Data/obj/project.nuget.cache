@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+hvoY5oKWCSuKhe3jla6N8KLcXjaDTZRXGkgCqqc33uq2LuQGdEYe9wibYzCYF1zb9NjfMgnCQ3Y1YIfISxA4w==",
+  "dgSpecHash": "WgSxh5wRE2eLmze4Ehnkab7kLsuUvz8mHdGSzjqwHbwEzYrCo3ApYWATA0fXfp9VVxgMsFTrfj95qs23zJrRaw==",
   "success": true,
-  "projectFilePath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
+  "projectFilePath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

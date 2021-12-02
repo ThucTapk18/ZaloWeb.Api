@@ -9,10 +9,12 @@ namespace Zaloweb.Data.Tables
         [Key]
         public long MessId { get; set; }
 
-        [ForeignKey("Id")]
+        [ForeignKey("usId")]
+        [Column(Order = 0)]
         public long userId { get; set; }
 
-        [ForeignKey("RoomId")]
+        [ForeignKey("rId")]
+        [Column(Order = 1)]
         public long roomId { get; set; }
 
         [Required]

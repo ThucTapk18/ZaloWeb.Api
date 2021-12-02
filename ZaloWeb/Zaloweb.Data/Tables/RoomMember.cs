@@ -7,10 +7,10 @@ namespace Zaloweb.Data.Tables
     public class RoomMember
     {
         [Key]
-        [ForeignKey("RoomId")]
+        [ForeignKey("rId")]
         public long roomId { get; set; }
 
-        [ForeignKey("Id")]
+        [ForeignKey("usId")]
         public long userId { get; set; }
 
         [Required]
