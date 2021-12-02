@@ -17,7 +17,7 @@ namespace Zaloweb.Data.Serviecs
         }
         //ham check xem co ban be khong
         public async Task<GetFriendsResult> GetFriendsAsync(
-            long? LeftId = null)
+            long? LeftId = null, long? rightId = null)
         {
             User user = null;
             Friend friend = null;

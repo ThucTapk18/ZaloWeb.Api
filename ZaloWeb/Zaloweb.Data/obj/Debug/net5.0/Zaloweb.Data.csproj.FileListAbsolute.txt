@@ -27,3 +27,4 @@ D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\D
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\ref\Zaloweb.Data.dll
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.pdb
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.genruntimeconfig.cache
+D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.csprojAssemblyReference.cache

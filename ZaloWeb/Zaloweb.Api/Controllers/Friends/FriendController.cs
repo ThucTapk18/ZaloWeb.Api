@@ -19,45 +19,26 @@ namespace Zaloweb.Api.Controllers
             this.friendServices = friendService;
         }
 
-        [HttpGet]
-        [Route("is-exist")]
-        public async Task<GetIsFriendExistResponse> IsUserExistAsync(long leftId)
-        {
-            try
-            {
-                var response = await friendServices.(userName);
-                return new GetIsFriendExistResponse
-                {
-                    IsError = false,
-                    IsExist = response
-                };
-            }
-            catch
-            {
-                return new GetIsUserExistResponse
-                {
-                    IsError = true
-                };
-            }
-        }
+        
 
         [HttpGet]
         [Route("info")]
-        public async Task<GetUserResponse> GetUserAsync(string userName = null, long? userId = null)
+        public async Task<GetFriendResponse> GetUserAsync(long? leftId = null, long? rightId = null)
         {
             try
             {
-                var response = await userService.GetUserAsync(userName, userId);
-                return new GetUserResponse
+                var response = await friendServices.GetFriendsAsync(leftId,rightId);
+                return new GetFriendResponse
                 {
                     IsError = false,
-                    Id = response.Id,
+                    LeftId = response.LeftId,
+                    RightId = response.RightId,
                     Name = response.Name
                 };
             }
             catch
             {
-                return new GetUserResponse
+                return new GetFriendResponse
                 {
                     IsError = true
                 };
