@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaloweb.Api", "Zaloweb.Api\Zaloweb.Api.csproj", "{EB2687D1-ABCD-4EC3-AFC8-F89C87CDCD8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zaloweb.Data", "Zaloweb.Data\Zaloweb.Data.csproj", "{11AABDFE-2A2C-4C2B-A6ED-86FF90FDC752}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB2687D1-ABCD-4EC3-AFC8-F89C87CDCD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB2687D1-ABCD-4EC3-AFC8-F89C87CDCD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB2687D1-ABCD-4EC3-AFC8-F89C87CDCD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB2687D1-ABCD-4EC3-AFC8-F89C87CDCD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11AABDFE-2A2C-4C2B-A6ED-86FF90FDC752}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11AABDFE-2A2C-4C2B-A6ED-86FF90FDC752}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11AABDFE-2A2C-4C2B-A6ED-86FF90FDC752}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11AABDFE-2A2C-4C2B-A6ED-86FF90FDC752}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2019C58-4EB7-4A32-A990-EB23D31B1D72}
+	EndGlobalSection
+EndGlobal
