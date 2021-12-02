@@ -19,7 +19,6 @@ D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\D
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.dll
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\ref\Zaloweb.Data.dll
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.pdb
-D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.csprojAssemblyReference.cache
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.AssemblyInfoInputs.cache
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.AssemblyInfo.cs

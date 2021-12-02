@@ -16,6 +16,8 @@ namespace Zaloweb.Data.Tables
         [ForeignKey("RightUser")]
         public long RightId { get; set; }
 
+        
+
         [Required]
         public DateTime StartDate { get; set; }
 

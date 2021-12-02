@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace Zaloweb.Api.Controllers
+namespace Zaloweb.Data.Serviecs
 {
-    public class FriendController
+    interface IFriendServices 
     {
+        
     }
 }

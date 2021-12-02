@@ -14,10 +14,22 @@
 
         protected override void Seed(Zaloweb.Data.DBContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method
-            //  to avoid creating duplicate seed data.
+            for (int i = 2; i < 10; i++)
+            {
+                context.Users.AddOrUpdate(new Tables.User
+                {
+                    Id = i,
+                    Name = "Panda Cute",
+                    UserName = "panda"
+                });
+            }
+            context.Friends.AddOrUpdate(new Tables.Friend
+            {
+                LeftId = 1,
+                RightId = 2,
+                StartDate = DateTime.Now
+                
+            });
         }
     }
 }
