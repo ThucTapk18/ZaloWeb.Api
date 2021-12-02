@@ -9,8 +9,11 @@ namespace Zaloweb.Data
     {
         public virtual DbSet<User> Users { get; set; }
         public virtual DbSet<Friend> Friends { get; set; }
+        public virtual DbSet<Message> Messages { get; set; }
+        public virtual DbSet<Room> Rooms { get; set; }
+        public virtual DbSet<RoomMember> RoomMembers { get; set; }
 
-        public DBContext() : base("Server=localhost:DESKTOP-MUSSU0N; Database=ZaloWeb") { }
+        public DBContext() : base("Server=DESKTOP-MUSSU0N; Database=ZaloWeb; user=sa; password=123@abc") { }
         public DBContext(string connString) : base(connString) { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

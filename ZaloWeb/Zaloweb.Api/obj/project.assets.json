@@ -1214,11 +1214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Api\\Zaloweb.Api.csproj",
+      "projectUniqueName": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Api\\Zaloweb.Api.csproj",
       "projectName": "Zaloweb.Api",
-      "projectPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Api\\Zaloweb.Api.csproj",
+      "projectPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Api\\Zaloweb.Api.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Api\\obj\\",
+      "outputPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

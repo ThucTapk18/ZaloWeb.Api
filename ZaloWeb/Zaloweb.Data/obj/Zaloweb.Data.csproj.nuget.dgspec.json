@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj": {}
+    "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj": {}
   },
   "projects": {
-    "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj": {
+    "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
+        "projectUniqueName": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
         "projectName": "Zaloweb.Data",
-        "projectPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
+        "projectPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\Zaloweb.Data.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb\\Zaloweb.Data\\obj\\",
+        "outputPath": "D:\\Download\\New folder\\Thuctap\\New folder\\ZaloWeb.Api\\ZaloWeb\\Zaloweb.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
