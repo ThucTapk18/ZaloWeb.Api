@@ -6,14 +6,20 @@ using Zaloweb.Data.Types.Friends;
 
 namespace Zaloweb.Api.Types.Friends
 {
-    public class GetIsFriendExistResponse
-    {
-        public bool IsError { get; set; }
-        public bool IsExist { get; set; }
-    }
 
-    public class GetFriendResponse : GetFriendsResult
+    public class GetFriendResponse
     {
-        public bool IsError { get; set; }
+        public long LeftId { get; set; }
+
+        public long RightId { get; set; }
+
+        public string Name { get; set; }
+
+        public override string ToString()
+        {
+            return $"lid: {LeftId}, rid: {RightId} ,name: {Name}";
+        }
+
+        public bool IsBool { get; set; }
     }
 }

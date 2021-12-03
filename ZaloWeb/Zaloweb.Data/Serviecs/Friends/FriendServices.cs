@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,30 +9,31 @@ using Zaloweb.Data.Types.Friends;
 
 namespace Zaloweb.Data.Serviecs
 {
-    public class FriendServices
+    public class FriendServices : IFriendServices
     {
-        private readonly DBContext context;
+        private readonly DBContext _context;
+        private DbSet dBSet;
         public FriendServices(DBContext context)
         {
-            this.context = context;
+            this._context = context;
         }
         //ham check xem co ban be khong
         public async Task<GetFriendsResult> GetFriendsAsync(
-            long? LeftId = null, long? rightId = null)
+            long? UserId)
         {
-            User user = null;
-            Friend friend = null;
-            if (friend == null)
-            {
-                throw new InvalidOperationException("Không tìm thấy user");
-            }
+            var querryUser = _context.Users.Find(UserId);
+            var result = _context.Friends.FindAsync(UserId);
 
+            if(result == null)
+            {
+                throw new InvalidOperationException("Khong Tim Thay Ban Be");
+            }
+            var querry = _context.Friends.Where(x => x.LeftId == UserId || x.RightId == UserId).FirstOrDefault();
             return new GetFriendsResult
             {
-                LeftId = friend.LeftId,
-                RightId = friend.RightId,
-                Name = user.Name
-                
+                LeftId = querry.LeftId,
+                RightId = querry.RightId,
+                Name = querryUser.Name
             };
         }
 

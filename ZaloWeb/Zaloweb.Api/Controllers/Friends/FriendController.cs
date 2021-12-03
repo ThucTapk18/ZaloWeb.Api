@@ -21,16 +21,15 @@ namespace Zaloweb.Api.Controllers
 
         
 
-        [HttpGet]
+        [HttpPost]
         [Route("info")]
-        public async Task<GetFriendResponse> GetFriendAsync(long? leftId = null, long? rightId = null)
+        public async Task<GetFriendResponse> GetFriendAsync(long? UserId)
         {
             try
             {
-                var response = await friendServices.GetFriendsAsync(leftId,rightId);
+                var response = await friendServices.GetFriendsAsync(UserId);
                 return new GetFriendResponse
                 {
-                    IsError = false,
                     LeftId = response.LeftId,
                     RightId = response.RightId,
                     Name = response.Name
@@ -40,7 +39,7 @@ namespace Zaloweb.Api.Controllers
             {
                 return new GetFriendResponse
                 {
-                    IsError = true
+                    IsBool = true
                 };
             }
         }
