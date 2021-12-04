@@ -19,11 +19,11 @@ namespace Zaloweb.Api.Controllers.Messages
         }
         [HttpPost]
         [Route("info")]
-        public async Task<GetMessagesResponse> GetMessageAsync(long? MessId)
+        public async Task<GetMessagesResponse> GetMessageAsync(string? value)
         {
             try
             {
-                var response = await messServices.GetMessagesAsync(MessId);
+                var response = await messServices.GetMessagesAsync(value);
                 return new GetMessagesResponse
                 {
 

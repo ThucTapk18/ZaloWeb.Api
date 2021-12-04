@@ -9,6 +9,6 @@ namespace Zaloweb.Data.Serviecs.Messages
 {
     interface  IMessageServices
     {
-        Task<GetMessagesResult> GetMessagesAsync(long? MessId);
+        Task<GetMessagesResult> GetMessagesAsync(string? value);
     }
 }
