@@ -18,7 +18,7 @@ namespace Zaloweb.Data.Serviecs.Messages
             this._context = context;
         }
         public async Task<GetMessagesResult> GetMessagesAsync(
-           string? value)
+           string value)
         {
             //var querryUser = _context.Users.Find(value);
             var result = _context.Messages.FindAsync(value);
@@ -31,13 +31,12 @@ namespace Zaloweb.Data.Serviecs.Messages
             return new GetMessagesResult
             {
                 MessId = querry.MessId,
-                roomId = querry.roomId,
                 value = querry.value,
                 userId=querry.userId
             };
         }
 
-        public Task GetMessageAsync(string? value)
+        public Task GetMessageAsync(string value)
         {
             throw new NotImplementedException();
         }

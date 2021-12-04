@@ -11,11 +11,11 @@ namespace Zaloweb.Data.Tables
 
         [ForeignKey("usId")]
         [Column(Order = 0)]
-        public long userId { get; set; }
+        public int userId { get; set; }
 
         [ForeignKey("rId")]
         [Column(Order = 1)]
-        public long roomId { get; set; }
+        public int roomId { get; set; }
 
         [Required]
         public string value { get; set; }

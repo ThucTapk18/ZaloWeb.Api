@@ -9,12 +9,12 @@ namespace Zaloweb.Data.Tables
         [Key]
         [Column(Order = 0)]
         [ForeignKey("LeftUser")]
-        public long LeftId { get; set; }
+        public int LeftId { get; set; }
 
         [Key]
         [Column(Order = 1)]
         [ForeignKey("RightUser")]
-        public long RightId { get; set; }
+        public int RightId { get; set; }
 
         
 
