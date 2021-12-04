@@ -28,3 +28,18 @@ D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\D
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.pdb
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.genruntimeconfig.cache
 D:\Download\New folder\Thuctap\New folder\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.csprojAssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.deps.json
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.runtimeconfig.json
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.runtimeconfig.dev.json
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.dll
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\ref\Zaloweb.Data.dll
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\bin\Debug\net5.0\Zaloweb.Data.pdb
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.AssemblyInfo.cs
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.dll
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\ref\Zaloweb.Data.dll
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.pdb
+C:\Users\HP\Documents\GitHub\ZaloWeb.Api\ZaloWeb\Zaloweb.Data\obj\Debug\net5.0\Zaloweb.Data.genruntimeconfig.cache

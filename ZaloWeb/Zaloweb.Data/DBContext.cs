@@ -13,7 +13,7 @@ namespace Zaloweb.Data
         public virtual DbSet<Room> Rooms { get; set; }
         public virtual DbSet<RoomMember> RoomMembers { get; set; }
 
-        public DBContext() : base("Server=DESKTOP-MUSSU0N; Database=ZaloWeb; user=sa; password=123@abc") { }
+        public DBContext() : base("Server=DESKTOP-OEP07ID; Database=ZaloWeb; user=sa; password=123") { }
         public DBContext(string connString) : base(connString) { }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

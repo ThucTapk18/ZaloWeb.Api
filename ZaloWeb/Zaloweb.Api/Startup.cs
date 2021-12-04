@@ -6,6 +6,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Zaloweb.Data;
 using Zaloweb.Data.Serviecs;
+using Zaloweb.Data.Serviecs.Messages;
 
 namespace Zaloweb.Api
 {
@@ -23,6 +24,7 @@ namespace Zaloweb.Api
         {
             services.AddScoped((_) => new DBContext());
             services.AddScoped<FriendServices>();
+            services.AddScoped<MessageServices>();
 
 
             services.AddControllers();
