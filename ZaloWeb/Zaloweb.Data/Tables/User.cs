@@ -5,7 +5,7 @@ namespace Zaloweb.Data.Tables
     public class User
     {
         [Key]
-        public long Id { get; set; }
+        public int Id { get; set; }
 
         [Required]
         [StringLength(10)]

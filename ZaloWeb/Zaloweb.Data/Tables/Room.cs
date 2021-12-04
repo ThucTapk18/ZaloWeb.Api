@@ -5,7 +5,7 @@ namespace Zaloweb.Data.Tables
     public class Room
     {
         [Key]
-        public long RoomId  { get; set; }
+        public int RoomId  { get; set; }
 
         [Required]
         [StringLength(50)]

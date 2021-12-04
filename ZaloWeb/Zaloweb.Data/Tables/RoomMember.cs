@@ -8,10 +8,10 @@ namespace Zaloweb.Data.Tables
     {
         [Key]
         [ForeignKey("rId")]
-        public long roomId { get; set; }
+        public int roomId { get; set; }
 
         [ForeignKey("usId")]
-        public long userId { get; set; }
+        public int userId { get; set; }
 
         [Required]
         public long roleId { get; set; }

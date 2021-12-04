@@ -19,7 +19,7 @@ namespace Zaloweb.Api.Controllers.Messages
         }
         [HttpPost]
         [Route("info")]
-        public async Task<GetMessagesResponse> GetMessageAsync(string? value)
+        public async Task<GetMessagesResponse> GetMessageAsync(string value)
         {
             try
             {
@@ -28,7 +28,6 @@ namespace Zaloweb.Api.Controllers.Messages
                 {
 
                     MessId = response.MessId,
-                    roomId = response.roomId,
                     value = response.value,
                     userId = response.userId
                 };
